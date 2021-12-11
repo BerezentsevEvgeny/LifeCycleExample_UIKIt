@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8C1949CF2764A7C500F1DE5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1949CE2764A7C500F1DE5B /* AppDelegate.swift */; };
 		8C1949D12764A7C500F1DE5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1949D02764A7C500F1DE5B /* SceneDelegate.swift */; };
-		8C1949D32764A7C500F1DE5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1949D22764A7C500F1DE5B /* ViewController.swift */; };
+		8C1949D32764A7C500F1DE5B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1949D22764A7C500F1DE5B /* MainViewController.swift */; };
 		8C1949D62764A7C500F1DE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1949D42764A7C500F1DE5B /* Main.storyboard */; };
 		8C1949D82764A7C600F1DE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1949D72764A7C600F1DE5B /* Assets.xcassets */; };
 		8C1949DB2764A7C600F1DE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1949D92764A7C600F1DE5B /* LaunchScreen.storyboard */; };
+		8C1949E32764B40900F1DE5B /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1949E22764B40900F1DE5B /* SecondaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C1949CB2764A7C500F1DE5B /* LifeCycleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCycleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1949CE2764A7C500F1DE5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C1949D02764A7C500F1DE5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C1949D22764A7C500F1DE5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C1949D22764A7C500F1DE5B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8C1949D52764A7C500F1DE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C1949D72764A7C600F1DE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C1949DA2764A7C600F1DE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C1949DC2764A7C600F1DE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1949E22764B40900F1DE5B /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				8C1949CE2764A7C500F1DE5B /* AppDelegate.swift */,
 				8C1949D02764A7C500F1DE5B /* SceneDelegate.swift */,
-				8C1949D22764A7C500F1DE5B /* ViewController.swift */,
+				8C1949D22764A7C500F1DE5B /* MainViewController.swift */,
+				8C1949E22764B40900F1DE5B /* SecondaryViewController.swift */,
 				8C1949D42764A7C500F1DE5B /* Main.storyboard */,
 				8C1949D72764A7C600F1DE5B /* Assets.xcassets */,
 				8C1949D92764A7C600F1DE5B /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1949D32764A7C500F1DE5B /* ViewController.swift in Sources */,
+				8C1949D32764A7C500F1DE5B /* MainViewController.swift in Sources */,
 				8C1949CF2764A7C500F1DE5B /* AppDelegate.swift in Sources */,
 				8C1949D12764A7C500F1DE5B /* SceneDelegate.swift in Sources */,
+				8C1949E32764B40900F1DE5B /* SecondaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
