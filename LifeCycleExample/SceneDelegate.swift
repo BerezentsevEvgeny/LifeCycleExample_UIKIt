@@ -31,11 +31,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         print(#function)
     }
 
-    func sceneWillEnterForeground(_ scene: UIScene) {
+    func sceneDidEnterBackground(_ scene: UIScene) {
         print(#function)
     }
-
-    func sceneDidEnterBackground(_ scene: UIScene) {
+    
+    func sceneWillEnterForeground(_ scene: UIScene) {
         print(#function)
     }
     
